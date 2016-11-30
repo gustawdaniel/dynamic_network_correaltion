@@ -1,10 +1,6 @@
 # Dynamic Stock Network Visualisation
 
-Script allow to visualise correlation network of companies from stock market.
-
-<iframe src="https://vid.me/e/I6nt?autoplay=0&amp;loop=1&amp;muted=1&amp;stats=1" width="854" height="480" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling="no"></iframe>
-
-<iframe src="https://vid.me/e/Bwzr?autoplay=0&amp;loop=1&amp;muted=1&amp;stats=1" width="854" height="480" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen scrolling="no"></iframe>
+Script allows to visualise correlation network of companies from stock market.
 
 ## Instalation
 
@@ -29,6 +25,11 @@ test ENTER ENTER ENTER ENTER ENTER
 You should see on screen of `ubigraph_server` visualisation like this
 
 ![Visualisation](http://i.imgur.com/UAgE9to.png)
+
+Look at video
+
++ [1](https://vid.me/e/I6nt)
++ [2](https://vid.me/e/Bwzr)
 
 ### Dependencies
 

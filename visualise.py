@@ -141,6 +141,7 @@ epoch = datetime.datetime.utcfromtimestamp(0)
 print "Saving content"
 
 for i in range(0, len(files_content)):  # for any file
+    l = ""
     for line in files_content[i]:  # get line
         l = line.rstrip().split(',')  # split by coma
         date.append((datetime.datetime.strptime(l[1], "%Y%m%d").date() - epoch.date()).days)
@@ -163,6 +164,9 @@ for i in range(0, len(files_content)):  # for any file
     date = []
     price = []
     print i + 1, "/", len(files_content)
+
+if config.free_mem:
+    files_content = []
 
 ##################################################################
 #           Selecting time of simulation                         #
@@ -237,7 +241,7 @@ for date in range(0, max_user - min_user):
 #                  Creating matrix of connections                #
 ##################################################################
 
-print "Trwa inicjalizacja macierzy połączeń"
+print "Initialisation of matrix of connection"
 
 e = [[0 for x in range(Company.vertex_id)] for y in range(Company.vertex_id)]  # matrix of connections
 
