@@ -1,0 +1,28 @@
+{
+  "uri1": "http://bossa.pl/pub/",
+  "data": [
+    {
+      "uri2": "metastock/mstock/mstall.zip"
+    },{
+      "uri2": "ciagle/mstock/mstcgl.zip"
+    },{
+      "uri2": "futures/mstock/mstfut.zip"
+    },{
+      "uri2": "newconnect/mstock/mstncn.zip"
+    },{
+      "uri2": "jednolity/f2/mstock/mstf2.zip"
+    },{
+      "uri2": "ciagle/mstock/mstobl.zip"
+    },{
+      "uri2": "indzagr/mstock/mstzgr.zip"
+    },{
+      "uri2": "waluty/mstock/mstnbp.zip"
+    },{
+      "uri2": "fundinwest/mstock/mstfun.zip"
+    },{
+      "uri2": "ofe/mstock/mstofe.zip"
+    },{
+      "uri2": "forex/mstock/mstfx.zip"
+    }
+  ]
+}
